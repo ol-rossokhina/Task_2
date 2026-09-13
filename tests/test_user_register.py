@@ -1,8 +1,8 @@
 import allure
 import pytest
 
-from tests.api_client import register_user
-from tests.data_generator import generate_user_data
+from api_client import register_user
+from data_generator import generate_user_data
 
 
 @allure.feature('Регистрация пользователя')

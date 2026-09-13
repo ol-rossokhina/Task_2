@@ -1,6 +1,6 @@
 import allure
 
-from tests.api_client import create_order, get_user_orders
+from api_client import create_order, get_user_orders
 
 
 @allure.feature('Получение заказов пользователя')

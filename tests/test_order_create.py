@@ -1,6 +1,6 @@
 import allure
 
-from tests.api_client import create_order
+from api_client import create_order
 
 # Синтаксически валидный, но не существующий на сервере id ингредиента
 INVALID_INGREDIENT_HASH = 'a' * 24
