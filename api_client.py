@@ -3,7 +3,7 @@ from typing import List, Optional
 import allure
 import requests
 
-from tests.endpoints import INGREDIENTS_URL, LOGIN_URL, ORDERS_URL, REGISTER_URL, USER_URL
+from endpoints import INGREDIENTS_URL, LOGIN_URL, ORDERS_URL, REGISTER_URL, USER_URL
 
 
 def _auth_headers(access_token: Optional[str]) -> dict:
