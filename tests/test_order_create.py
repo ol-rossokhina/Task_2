@@ -1,9 +1,7 @@
 import allure
 
 from api_client import create_order
-
-# Синтаксически валидный, но не существующий на сервере id ингредиента
-INVALID_INGREDIENT_HASH = 'a' * 24
+from constants import INVALID_INGREDIENT_HASH
 
 
 @allure.feature('Создание заказа')
